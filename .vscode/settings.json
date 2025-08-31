@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sanjana/atuv_ws/install/atuv_sim/lib/python3.12/site-packages",
+        "/home/sanjana/atuv_ws/install/atuv_description/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sanjana/atuv_ws/install/atuv_sim/lib/python3.12/site-packages",
+        "/home/sanjana/atuv_ws/install/atuv_description/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages",
+        "/home/sanjana/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
