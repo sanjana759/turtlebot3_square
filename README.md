@@ -18,3 +18,45 @@ This is a ROS 2 package that makes a TurtleBot3 robot move in a square path usin
    ```bash
    cd ~/ros2_ws/src
    git clone https://github.com/sanjana759/turtlebot3_square.git
+
+2. Build the workspace:
+
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
+
+3. Launch TurtleBot3 simulation (Gazebo):
+
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+4. Run the square movement node:
+
+    ros2 run turtlebot3_square square
+
+5. Repository Structure
+
+    square.py → main Python node
+
+    launch/ → launch files
+
+    package.xml → package metadata
+
+    setup.py → Python entry points
+
+Author
+
+    Sanjana Anchan
+
+
+---
+
+👉 Now:  
+1. Run `nano README.md` in your terminal.  
+2. Paste the above.  
+3. Save (`Ctrl+O`, Enter) and exit (`Ctrl+X`).  
+4. Then run:  
+   ```bash
+   git add README.md
+   git commit -m "Added README with project description"
+   git push
